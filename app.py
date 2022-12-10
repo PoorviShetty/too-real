@@ -49,7 +49,7 @@ class Main(QWidget):
 
     def take_screenshot(self):
         #change the time
-        daemon = Thread(target=self.background_task, args=(3,), daemon=True, name='Background')
+        daemon = Thread(target=self.background_task, args=(60,), daemon=True, name='Background')
         daemon.start()
 
     def background_task(self, interval_sec):
