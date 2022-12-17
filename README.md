@@ -12,16 +12,12 @@ pip install -r requirements.txt
 
 ### Terminal 1
 
+Create `static/ss` folder in root
+
 ```
 python app.py
 ```
 
 Click on `"Start taking screenshots!"`
-
-### Terminal 2
-
-```
-python web.py
-```
 
 Navigate to `localhost:5000`

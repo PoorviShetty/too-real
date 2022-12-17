@@ -8,6 +8,7 @@ import time
 from time import sleep
 from threading import Thread
 import socket
+from subprocess import Popen
 
 class Main(QWidget):
 
@@ -67,5 +68,6 @@ def main():
 
 
 if __name__ == '__main__':
+    Popen('python web.py', shell = True)    
     main()
 
